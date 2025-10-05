@@ -1,0 +1,288 @@
+/* ===== Body ===== */
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    font-family: 'Orbitron', sans-serif; /* Tipografía futurista */
+}
+
+/* ===== Encabezado ===== */
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ff00ff;
+    color: #00ffff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff;
+}
+
+/* ===== Contenedor principal ===== */
+#contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ===== Tabla de productos ===== */
+#contenedorTabla {
+    margin-top: 50px;
+    width: 70%;
+}
+
+table {
+    table-layout: fixed;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px;
+    border-bottom: 3px solid #ff00ff;
+    color: #00ffff;
+    text-shadow: 0 0 3px #ff00ff;
+}
+
+tr, td {
+    padding: 20px;
+    border-bottom: 2px solid #333;
+    background-color: #1a1a1a;
+    transition: background 0.3s;
+}
+
+tr:hover, td:hover {
+    background-color: #222;
+}
+
+/* ===== Títulos de producto ===== */
+.tituloProducto {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ff00ff;
+    text-shadow: 0 0 3px #00ffff;
+}
+
+/* ===== Controles de cantidad ===== */
+.contenedorCantidad {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    padding: 10px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #00ffff;
+    background-color: #0d0d0d;
+    color: #00ffff;
+    text-align: center;
+}
+
+/* ===== Carrito ===== */
+#contedorCarrito {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 30%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ff00ff;
+    padding: 10px;
+}
+
+#tituloTotal {
+    margin-left: 10px;
+    color: #00ffff;
+    font-weight: 600;
+}
+
+#contenedorTotal {
+    border-top: 1px solid #ff00ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #00ffff;
+}
+
+/* ===== Productos dentro del carrito ===== */
+#productosCarrito {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lineaCompra {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #00ffff;
+    border-bottom: 1px solid #333;
+}
+
+/* ===== Botones ===== */
+button {
+    background-color: #0d0d0d;
+    color: #ff00ff;
+    border: 1px solid #ff00ff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #ff00ff;
+    color: #0d0d0d;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+}
+/* ===== Body ===== */
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    font-family: 'Orbitron', sans-serif; /* Tipografía futurista */
+}
+
+/* ===== Encabezado ===== */
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ff00ff;
+    color: #00ffff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff;
+}
+
+/* ===== Contenedor principal ===== */
+#contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ===== Tabla de productos ===== */
+#contenedorTabla {
+    margin-top: 50px;
+    width: 70%;
+}
+
+table {
+    table-layout: fixed;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px;
+    border-bottom: 3px solid #ff00ff;
+    color: #00ffff;
+    text-shadow: 0 0 3px #ff00ff;
+}
+
+tr, td {
+    padding: 20px;
+    border-bottom: 2px solid #333;
+    background-color: #1a1a1a;
+    transition: background 0.3s;
+}
+
+tr:hover, td:hover {
+    background-color: #222;
+}
+
+/* ===== Títulos de producto ===== */
+.tituloProducto {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ff00ff;
+    text-shadow: 0 0 3px #00ffff;
+}
+
+/* ===== Controles de cantidad ===== */
+.contenedorCantidad {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    padding: 10px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #00ffff;
+    background-color: #0d0d0d;
+    color: #00ffff;
+    text-align: center;
+}
+
+/* ===== Carrito ===== */
+#contedorCarrito {
+    position: sticky;
+      /* scroll interno */
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 30%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ff00ff;
+    padding: 10px;
+  top: 20px; /* distancia desde la parte superior */
+
+    height: 500px;       /* altura fija */
+   
+}
+#tituloTotal {
+    margin-left: 10px;
+    color: #00ffff;
+    font-weight: 600;
+}
+
+#contenedorTotal {
+    
+    bottom: 0;           /* se pega abajo del scroll interno */
+    background-color: #111;
+    border-top: 1px solid #ff00ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #00ffff;
+}
+
+/* ===== Productos dentro del carrito ===== */
+#productosCarrito {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lineaCompra {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #00ffff;
+    border-bottom: 1px solid #333;
+}
+
+/* ===== Botones ===== */
+button {
+    background-color: #0d0d0d;
+    color: #ff00ff;
+    border: 1px solid #ff00ff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #ff00ff;
+    color: #0d0d0d;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+}
